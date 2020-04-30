@@ -4,8 +4,8 @@
 - [Authentication](#authentication)
 - [Making Authenticated Requests](#making-authenticated-requests)
 - [Endpoints](#endpoints)
-- [Topup endpoint]()
-- [Check Balance endpoint]()
+- [Topup endpoint](#post-airtimeapisubscribertopup)
+- [Check Balance endpoint](#get-airtimeapisubscriberbalance)
 
 ### Authentication
 The API is using Oauth 2.0 token for authentication of request. Client will request an access token using Client Credential Grant according to RFC 6749. The token received is a json web token (JWT).
