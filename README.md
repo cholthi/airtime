@@ -1,9 +1,9 @@
 ## 21 Systems airtime API ( Version 1.2)
 
 #### Contents
-- [Authentication]()
-- [Making Authenticated Requests]()
-- [Endpoints]()
+- [Authentication](#authentication)
+- [Making Authenticated Requests](#making-authenticated-requests)
+- [Endpoints](#endpoints)
 - [Topup endpoint]()
 - [Check Balance endpoint]()
 
@@ -83,7 +83,7 @@ __POST /auth/logout__
 This endpoint just requires you to supply the authorization header with a valid access token.
 This will revoke all refresh tokens for the user. Remember that the JWT tokens will still be valid for stateless auth until they expires.
 
-__POST /airtime/api/subscriber/topup__
+#### POST /airtime/api/subscriber/topup
 
 Call this endpoint to send airtime to valid MTN-South Sudan subscriber. It accepts json object as a request body
 
@@ -111,7 +111,7 @@ a success response looks this
  ```
  Again, inspect the `Message` param to understand the nature of error.
  
- __GET /airtime/api/subscriber/balance__
+ #### GET /airtime/api/subscriber/balance
   This endpoint provides you with your account information, this includes also the account airtime balance maintain with 21   Systems.
   The only you need to call this endpoint is access token. this endpoint does not require any request body.
   
