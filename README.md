@@ -92,16 +92,17 @@ example
 {"msisdn":"211965615584","amount":6}' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJqZWRjbyIsImV4cCI6MTU4ODIyODA4Nywic3ViIjoiMTY0MzExYWItOWI4Ni00NjliLTk4ZWQtZmU0ZDg2Njg3ZGM0IiwiZW1haWwiOiJjaG9sQGRtYXJrbW9iaWxlLmNvbSIsImFwcF9tZXRhZGF0YSI6e30sInVzZXJfbWV0YWRhdGEiOnt9fQ.Jwv1I26shOaOVOY-QQZLGFtqVdReHQLvQ9z-ldf5J5Y" $host/airtime/api/subscriber/topup
 ```
 
-a success response looks this
+A success response looks like this
  ```json
  {
  "reference":"2015061114441812901004879",
- "statusCode":11,"statusMessage":"SUCCESS",
+ "statusCode":11,
+ "statusMessage":"SUCCESS",
  "receiver":"211965615584",
  "balance":94
  }
  ```
- While an error response looks this
+ While an error response looks like this
  
  ```json
  {
