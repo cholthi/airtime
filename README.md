@@ -114,7 +114,7 @@ A success response looks like this
  
  #### GET /airtime/api/subscriber/balance
   This endpoint provides you with your account information, this includes also the account airtime balance maintain with 21   Systems.
-  The only you need to call this endpoint is access token. this endpoint does not require any request body.
+  The only thing you need to call this endpoint is access token. this endpoint does not require any request body.
   
   It returns the following json object on success
   
