@@ -112,7 +112,7 @@ A success response looks like this
  ```
  Again, inspect the `Message` param to understand the nature of error.
  
- #### GET /airtime/api/subscriber/balance
+ #### GET /airtime/api/subscriber/balancev2
   This endpoint provides you with your account information, this includes also the account airtime balance maintain with 21   Systems.
   The only thing you need to call this endpoint is access token. this endpoint does not require any request body.
   
