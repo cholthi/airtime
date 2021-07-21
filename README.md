@@ -89,7 +89,7 @@ Call this endpoint to send airtime to valid MTN-South Sudan subscriber. It accep
 
 example
 ```Go
-{"msisdn":"211965615584","amount":6}' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJqZWRjbyIsImV4cCI6MTU4ODIyODA4Nywic3ViIjoiMTY0MzExYWItOWI4Ni00NjliLTk4ZWQtZmU0ZDg2Njg3ZGM0IiwiZW1haWwiOiJjaG9sQGRtYXJrbW9iaWxlLmNvbSIsImFwcF9tZXRhZGF0YSI6e30sInVzZXJfbWV0YWRhdGEiOnt9fQ.Jwv1I26shOaOVOY-QQZLGFtqVdReHQLvQ9z-ldf5J5Y" $host/airtime/api/subscriber/topup
+{"msisdn":"211965615584","amount":6, "currency": "SSP", "carrier":"mtn"}' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJqZWRjbyIsImV4cCI6MTU4ODIyODA4Nywic3ViIjoiMTY0MzExYWItOWI4Ni00NjliLTk4ZWQtZmU0ZDg2Njg3ZGM0IiwiZW1haWwiOiJjaG9sQGRtYXJrbW9iaWxlLmNvbSIsImFwcF9tZXRhZGF0YSI6e30sInVzZXJfbWV0YWRhdGEiOnt9fQ.Jwv1I26shOaOVOY-QQZLGFtqVdReHQLvQ9z-ldf5J5Y" $host/airtime/api/subscriber/topup
 ```
 
 A success response looks like this
