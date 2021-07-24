@@ -96,7 +96,7 @@ A success response looks like this
  ```json
  {
  "reference":"2015061114441812901004879",
- "statusCode":11,
+ "statusCode":0,
  "statusMessage":"SUCCESS",
  "receiver":"211965615584",
  "balance":94
